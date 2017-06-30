@@ -1,0 +1,282 @@
+# depslib dependency file v1.0
+1496420076 source:c:\users\alumno-g\desktop\proyectofpacmon\main.cpp
+	<iostream>
+	"Personaje.h"
+	"Enemigo.h"
+	"Pocman.h"
+
+1496417315 source:c:\users\alumno-g\desktop\proyectofpacmon\src\comida.cpp
+	"Comida.h"
+
+1496417315 c:\users\alumno-g\desktop\proyectofpacmon\include\comida.h
+
+1496419617 source:c:\users\alumno-g\desktop\proyectofpacmon\src\enemigo.cpp
+	"Enemigo.h"
+
+1496419617 c:\users\alumno-g\desktop\proyectofpacmon\include\enemigo.h
+	"Personaje.h"
+
+1496417411 source:c:\users\alumno-g\desktop\proyectofpacmon\src\escenario.cpp
+	"Escenario.h"
+
+1496417411 c:\users\alumno-g\desktop\proyectofpacmon\include\escenario.h
+
+1496420045 source:c:\users\alumno-g\desktop\proyectofpacmon\src\personaje.cpp
+	"Personaje.h"
+
+1496419617 c:\users\alumno-g\desktop\proyectofpacmon\include\personaje.h
+	"Posicion.h"
+
+1496418229 c:\users\alumno-g\desktop\proyectofpacmon\include\posicion.h
+	<string>
+	<iostream>
+
+1496420045 source:c:\users\alumno-g\desktop\proyectofpacmon\src\pocman.cpp
+	"Pocman.h"
+
+1496420104 c:\users\alumno-g\desktop\proyectofpacmon\include\pocman.h
+	"Personaje.h"
+
+1496418257 source:c:\users\alumno-g\desktop\proyectofpacmon\src\posicion.cpp
+	"Posicion.h"
+	<iostream>
+
+1496417389 source:c:\users\alumno-g\desktop\proyectofpacmon\src\ventana.cpp
+	"Ventana.h"
+
+1496417389 c:\users\alumno-g\desktop\proyectofpacmon\include\ventana.h
+
+1497024679 source:c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\main.cpp
+	<iostream>
+	"Personaje.h"
+	"Enemigo.h"
+	"Pocman.h"
+
+1496413352 c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\include\personaje.h
+	"Posicion.h"
+
+1497024679 c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\include\posicion.h
+	<string>
+	<iostream>
+
+1496413352 c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\include\enemigo.h
+	"Personaje.h"
+
+1496413352 c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\include\pocman.h
+	"Personaje.h"
+
+1496413352 source:c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\src\comida.cpp
+	"Comida.h"
+
+1496413352 c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\include\comida.h
+
+1496413352 source:c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\src\enemigo.cpp
+	"Enemigo.h"
+
+1496413352 source:c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\src\escenario.cpp
+	"Escenario.h"
+
+1496413352 c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\include\escenario.h
+
+1496413352 source:c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\src\personaje.cpp
+	"Personaje.h"
+
+1496413352 source:c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\src\pocman.cpp
+	"Pocman.h"
+
+1496413352 source:c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\src\posicion.cpp
+	"Posicion.h"
+	<iostream>
+
+1496413352 source:c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\src\ventana.cpp
+	"Ventana.h"
+
+1496413352 c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\include\ventana.h
+
+1497024686 source:c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\src\size.cpp
+	"Size.h"
+
+1497024999 c:\users\alumno-g\downloads\proyectofpacmon-master\proyectofpacmon\include\size.h
+
+1498774391 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\main.cpp
+	<iostream>
+	"Personaje.h"
+	"Enemigo.h"
+	"Pocman.h"
+
+1498775384 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\personaje.h
+	"Posicion.h"
+	"Ventana.h"
+
+1498776075 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\posicion.h
+	<string>
+	<iostream>
+
+1498709705 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\enemigo.h
+	"Personaje.h"
+
+1498774245 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\pocman.h
+	"Personaje.h"
+	"Direction.h"
+
+1497761275 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\comida.cpp
+	"Comida.h"
+
+1497757547 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\comida.h
+	"Posicion.h"
+
+1498709821 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\enemigo.cpp
+	"Enemigo.h"
+
+1498771962 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\escenario.cpp
+	"Escenario.h"
+
+1497756772 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\escenario.h
+
+1498775424 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\personaje.cpp
+	"Personaje.h"
+
+1498775892 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\pocman.cpp
+	"Pocman.h"
+
+1498774526 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\posicion.cpp
+	"Posicion.h"
+
+1497756772 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\ventana.cpp
+	"Ventana.h"
+
+1498770419 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\ventana.h
+	"Posicion.h"
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<sstream>
+
+1497757255 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\item.cpp
+	"Item.h"
+
+1497757243 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\item.h
+
+1497757182 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\powerup.cpp
+	"PowerUp.h"
+
+1497757182 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\powerup.h
+
+1498774275 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\direction.h
+
+1498774415 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\direction.cpp
+	"Direction.h"
+
+1498775023 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\gamemode1.cpp
+	"GameMode1.h"
+
+1498773733 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\gamemode1.h
+	"Menu.h"
+	"Pocman.h"
+
+1498774423 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\menu.h
+	"Ventana.h"
+	"Posicion.h"
+	"Size.h"
+
+1498756598 d:\usb\c++\proyectofpacmon\proyectofpacmon\include\size.h
+
+1498775079 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\menu.cpp
+	"Menu.h"
+
+1498756600 source:d:\usb\c++\proyectofpacmon\proyectofpacmon\src\size.cpp
+	"Size.h"
+
+1498788603 source:d:\instaladores\programacion\proyectofpacmon\main.cpp
+	<iostream>
+	"Personaje.h"
+	"Enemigo.h"
+	"Pocman.h"
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\personaje.h
+	"Posicion.h"
+	"Ventana.h"
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\posicion.h
+	<string>
+	<iostream>
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\ventana.h
+	"Posicion.h"
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<sstream>
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\enemigo.h
+	"Personaje.h"
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\pocman.h
+	"Personaje.h"
+	"Direction.h"
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\direction.h
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\comida.cpp
+	"Comida.h"
+
+1498788603 d:\instaladores\programacion\proyectofpacmon\include\comida.h
+	"Posicion.h"
+	"Item.h"
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\direction.cpp
+	"Direction.h"
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\enemigo.cpp
+	"Enemigo.h"
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\escenario.cpp
+	"Escenario.h"
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\escenario.h
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\gamemode1.cpp
+	"GameMode1.h"
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\gamemode1.h
+	"Menu.h"
+	"Pocman.h"
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\menu.h
+	"Ventana.h"
+	"Posicion.h"
+	"Size.h"
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\size.h
+
+1498788666 source:d:\instaladores\programacion\proyectofpacmon\src\item.cpp
+	"Item.h"
+
+1498788777 d:\instaladores\programacion\proyectofpacmon\include\item.h
+	"Personaje.h"
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\menu.cpp
+	"Menu.h"
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\personaje.cpp
+	"Personaje.h"
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\pocman.cpp
+	"Pocman.h"
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\posicion.cpp
+	"Posicion.h"
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\powerup.cpp
+	"PowerUp.h"
+
+1498768940 d:\instaladores\programacion\proyectofpacmon\include\powerup.h
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\size.cpp
+	"Size.h"
+
+1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\ventana.cpp
+	"Ventana.h"
+
