@@ -13,6 +13,7 @@ class Obstaculos : public Personaje
         void setStatus(int s);
         int getStatus();
         bool verImpact(Pocman b);
+        void Saludar();
 
     protected:
         int status; ///estado del obstaculo 1 si está presente en el juego, 0 sino

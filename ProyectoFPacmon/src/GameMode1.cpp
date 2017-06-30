@@ -6,22 +6,23 @@ GameMode1::GameMode1()
     myMainMenu = new Menu(Size(40,15),Posicion(5,5));
 
     Posicion tWindow = myMainMenu -> getPosicion(); ///posicion de Pocman
-    tWindow.x += 20;
-    tWindow.y +=30;
-    MyHeroPocman = new Pocman("Pocman",'♀',numPocmanLives,tWindow,Direction(1,0));
+    tWindow.x += 5;
+    tWindow.y +=4;
+    MyHeroPocman = new Pocman("Pocman",'$',numPocmanLives,tWindow,Direction(1,0));
     Posicion t2;
     Size tSize = myMainMenu -> getSize(); ///tamaño de la pantalla
     tWindow = myMainMenu -> getPosicion();
     tWindow.x++;
     tWindow.y++;
     srand(time(NULL));
-    /*for(int i = 0; i<numObst;i++)
+    for(int i = 0; i<numObst;i++)
     {
         t2.x = tWindow.x+rand()%(tSize.width-2);
         t2.y = tWindow.y+rand()%(tSize.height-2);
-        myObstaculos[i] = new Obstaculos(t2,'£');
+        myObstaculos[i]= new Obstaculos(t2,'£');
 
-    }*/
+
+    }
 }
 void GameMode1::refrescarGameMode1()
 {
@@ -38,9 +39,18 @@ void GameMode1::refrescarGameMode1()
     }
 
     MyHeroPocman->drawMyPersonaje();
-    stringstream s;
+    stringstream s;  ///permite ingresar a cualquier tipo de dato y los convierte en strings
     s<<score;
     myMainMenu->showMessage(Posicion(0,1),string("Score: ")+s.str());
+}
+bool GameMode1::colisionPocman(Pocman myCurrentPocman)
+{
+    Posicion posb=myCurrentPocman.getPosicion();
+    Posicion posw=myMainMenu->getPosicion();
+    Size sizew=myMainMenu->getSize();
+    if(posb.x > posw.x && posb.x < posw.x +sizew.width-1 && posb.y > posw.y && posb.y < posw.y +sizew.height-1)
+        return false;
+    return true;
 }
 GameMode1::~GameMode1()
 {
@@ -92,6 +102,24 @@ void GameMode1::startGameMode1()
             }
             MyHeroPocman->setDireccion(d);
         }
+        if(colisionPocman(*MyHeroPocman))
+        {
+            endGameMode1=true;
+            myMainMenu->showMessage(Posicion(0,2),string("Pocman Colisiono"));
+            break;
+        }
+        else
+        {
+            refrescarGameMode1();
+        }
+
+        if(score==numObst)
+        {
+            endGameMode1=true;
+            myMainMenu->showMessage(Posicion(0,2),string("Ganaste!"));
+        }
+
+        Sleep(200);
     }while(!endGameMode1);
 
 }

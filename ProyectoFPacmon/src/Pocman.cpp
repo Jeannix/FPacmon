@@ -4,7 +4,8 @@ Pocman::Pocman()
 {
     this -> nombre = NULL;
     this -> cuerpo = NULL;
-    this -> vida = NULL;
+    this -> vida = 0;
+    this -> dir = Direction(1,1);
 }
 Pocman::Pocman(char *nombre1, char cuerpo1,int vida1,Posicion pos1, Direction dir1)
 {
@@ -30,8 +31,7 @@ void Pocman::Saludar()
 void Pocman::drawMyPersonaje()
 {
     deletePixel(pos);
-    Posicion newPosi (pos.x + dir.dirX, pos.y + dir.dirY);
-    moveMyPersonaje(newPosi);
+    moveMyPersonaje(Posicion(pos.x + dir.dirX, pos.y + dir.dirY));
     Personaje::drawMyPersonaje();
 }
 void Pocman::setDireccion(Direction dir2)

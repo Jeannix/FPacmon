@@ -29,3 +29,7 @@ bool Obstaculos::verImpact(Pocman b)
     }
     return false;
 }
+void Obstaculos::Saludar()
+{
+    cout<<"Obstaculos encontrados!";
+}

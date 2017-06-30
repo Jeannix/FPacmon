@@ -2,12 +2,12 @@
 Menu::Menu()
 {
     pos = Posicion(0,0); ///inicializa la posicion en 0,0
-    mySize = Size(100,50);
+    mySize = Size(80,20);
 }
 Menu::Menu(Size size1)
 {
-    pos = Posicion(0);
-    mySize = size1;
+    pos = Posicion(0,0);
+    this -> mySize = size1;
 }
 Menu::Menu(Size size2, Posicion pos1)
 {
@@ -21,7 +21,7 @@ void Menu::showMessage(Posicion pos2, string message1)
 }
 void Menu::drawPrincipalMenu()
 {
-    system("cls");
+
     cout << "/t/t POCMAN ADVENTURES ::: |:v| "<< endl;
     cout << endl;
     cout << endl;
@@ -31,7 +31,7 @@ void Menu::drawPrincipalMenu()
 }
 void Menu::drawGame1Menu()
 {
-    system("cls");
+
     char c = 'H';
     int widthInicial=0,heightInicial=0,widthGame = 35, heightGame = 18;
     Posicion pto1(4,6), pto2(pto1.x+widthGame,pto1.y+heightGame);

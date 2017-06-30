@@ -8,7 +8,7 @@ class Pocman : public Personaje
 {
     public:
         Pocman();
-        Pocman(char *nombre1, char cuerpo1,int vida1,Posicion pos1,Direction dir1=Direction(1,1)); ///Inicializacion por defecto
+        Pocman(char *nombre1, char cuerpo1,int vida1,Posicion pos1,Direction dir1);
         ~Pocman();
         void Saludar();
         void setDireccion(Direction dir2);

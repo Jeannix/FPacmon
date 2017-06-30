@@ -10,7 +10,7 @@ const char DOWN = 80;
 const char ESC = 27;
 const char SPACE = 32;
 const int numObst = 4;
-///int numPocmanLives = 3;
+
 
 class GameMode1
 {
