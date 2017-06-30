@@ -9,7 +9,7 @@ const char RIGHT = 77;
 const char DOWN = 80;
 const char ESC = 27;
 const char SPACE = 32;
-const int numObst = 4;
+const int numObst = 28;
 ///template <typename T>
 
 class GameMode1
