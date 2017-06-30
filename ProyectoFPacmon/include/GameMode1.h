@@ -10,7 +10,7 @@ const char DOWN = 80;
 const char ESC = 27;
 const char SPACE = 32;
 const int numObst = 4;
-
+///template <typename T>
 
 class GameMode1
 {
@@ -25,7 +25,7 @@ class GameMode1
         Menu *myMainMenu;
         Pocman *MyHeroPocman;
         Obstaculos *myObstaculos[numObst];
-        int score;
+        int score; ///T :: template
 };
 
 #endif // GAMEMODE1_H

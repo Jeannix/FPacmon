@@ -334,7 +334,7 @@
 1498809107 source:d:\usb\c++\fpacmon\proyectofpacmon\src\gamemode1.cpp
 	"GameMode1.h"
 
-1498808020 d:\usb\c++\fpacmon\proyectofpacmon\include\gamemode1.h
+1498810215 d:\usb\c++\fpacmon\proyectofpacmon\include\gamemode1.h
 	"Menu.h"
 	"Pocman.h"
 	"Obstaculos.h"
@@ -379,7 +379,7 @@
 1498801735 d:\usb\c++\fpacmon\proyectofpacmon\include\frutita.h
 	"Personaje.h"
 
-1498809738 source:d:\usb\c++\fpacmon\proyectofpacmon\src\pocman.cpp
+1498809809 source:d:\usb\c++\fpacmon\proyectofpacmon\src\pocman.cpp
 	"Pocman.h"
 
 1498808131 source:d:\usb\c++\fpacmon\proyectofpacmon\src\obstaculos.cpp

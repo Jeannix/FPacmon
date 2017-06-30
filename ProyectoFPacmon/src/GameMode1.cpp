@@ -1,5 +1,6 @@
 #include "GameMode1.h"
 int numPocmanLives = 3;
+
 GameMode1::GameMode1()
 {
 
