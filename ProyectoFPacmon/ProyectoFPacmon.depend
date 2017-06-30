@@ -389,3 +389,107 @@
 	"Personaje.h"
 	"Pocman.h"
 
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\comida.cpp
+	"Comida.h"
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\comida.h
+	"Posicion.h"
+	"Personaje.h"
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\posicion.h
+	<string>
+	<iostream>
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\personaje.h
+	"Posicion.h"
+	"Ventana.h"
+	"Direction.h"
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\ventana.h
+	"Posicion.h"
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<sstream>
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\direction.h
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\direction.cpp
+	"Direction.h"
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\enemigo.cpp
+	"Enemigo.h"
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\enemigo.h
+	"Personaje.h"
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\frutita.cpp
+	"Frutita.h"
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\frutita.h
+	"Personaje.h"
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\item.cpp
+	"Item.h"
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\item.h
+	"Personaje.h"
+
+1498837288 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\menu.cpp
+	"Menu.h"
+
+1498837288 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\menu.h
+	"Ventana.h"
+	"Posicion.h"
+	"Size.h"
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\size.h
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\obstaculos.cpp
+	"Obstaculos.h"
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\obstaculos.h
+	"Personaje.h"
+	"Pocman.h"
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\pocman.h
+	"Personaje.h"
+	"Direction.h"
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\personaje.cpp
+	"Personaje.h"
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\pocman.cpp
+	"Pocman.h"
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\posicion.cpp
+	"Posicion.h"
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\powerup.cpp
+	"PowerUp.h"
+
+1498804218 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\powerup.h
+	"Personaje.h"
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\size.cpp
+	"Size.h"
+
+1498804218 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\ventana.cpp
+	"Ventana.h"
+
+1498837101 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\src\gamemode1.cpp
+	"GameMode1.h"
+
+1498836992 c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\include\gamemode1.h
+	"Menu.h"
+	"Pocman.h"
+	"Obstaculos.h"
+
+1498837309 source:c:\users\alumno-g\downloads\fpacmon-master\proyectofpacmon\main.cpp
+	<iostream>
+	"Personaje.h"
+	"Enemigo.h"
+	"Pocman.h"
+	"GameMode1.h"
+

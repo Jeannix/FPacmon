@@ -8,6 +8,9 @@ using namespace std;
 int main()
 {
     GameMode1 MyGame;
+    MyGame.startGameMainMenu();
+    system("pause");
+    system("cls");
     MyGame.startGameMode1();
 
 

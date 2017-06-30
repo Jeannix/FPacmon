@@ -19,16 +19,7 @@ void Menu::showMessage(Posicion pos2, string message1)
     GotoXY(pos2.x, pos2.y);
     cout<<message1;
 }
-void Menu::drawPrincipalMenu()
-{
 
-    cout << "/t/t POCMAN ADVENTURES ::: |:v| "<< endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << "Escoja 1 para el modo pacman normal" <<endl;
-    cout << "Escoja 2 para el modo historia de pacman" <<endl;
-}
 void Menu::drawGame1Menu()
 {
 

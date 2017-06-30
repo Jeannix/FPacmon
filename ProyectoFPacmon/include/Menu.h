@@ -11,7 +11,6 @@ class Menu : public Ventana
         Menu(Size size1);
         Menu(Size size2, Posicion pos1);
         void showMessage(Posicion pos2, string message1);
-        void drawPrincipalMenu();
         void drawGame1Menu();
         void drawGame2Menu();
         void drawExitMenu();

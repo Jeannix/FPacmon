@@ -7,9 +7,9 @@ GameMode1::GameMode1()
     myMainMenu = new Menu(Size(40,15),Posicion(5,5));
 
     Posicion tWindow = myMainMenu -> getPosicion(); ///posicion de Pocman
-    tWindow.x += 5;
+    tWindow.x +=5;
     tWindow.y +=4;
-    MyHeroPocman = new Pocman("Pocman",'$',numPocmanLives,tWindow,Direction(1,0));
+    MyHeroPocman = new Pocman(NULL,'o',numPocmanLives,tWindow,Direction(1,0));
     Posicion t2;
     Size tSize = myMainMenu -> getSize(); ///tamaño de la pantalla
     tWindow = myMainMenu -> getPosicion();
@@ -24,6 +24,21 @@ GameMode1::GameMode1()
 
 
     }
+}
+void GameMode1::startGameMainMenu()
+{
+    cout << "\t\t POCMAN ADVENTURES ::: |:v| "<< endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << "Bienvenido al Increible Mundo de Pocman ADVENTURES 3D/2D 1 link + medicina 100% real no fake MEGA 2018" <<endl;
+    cout << "Usted tiene el gran honor y privilegio de poder acceder a la Beta del juego " <<endl;
+    cout << "No se mmon y apoye a los desarrolladores :v " <<endl;
+    cout << endl;
+    system("pause");
+    cout <<"\tIngresando al juego ...."<<endl;
+    cout <<"\t...."<<endl;
+    cout << endl;
 }
 void GameMode1::refrescarGameMode1()
 {
@@ -100,6 +115,7 @@ void GameMode1::startGameMode1()
                     d.dirX=1;
                     d.dirY=0;
                     break;
+
             }
             MyHeroPocman->setDireccion(d);
         }
