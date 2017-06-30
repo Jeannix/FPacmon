@@ -9,6 +9,8 @@ class Personaje : public Ventana
 {
     public:
         Personaje();
+        Personaje(char cuerpo1);
+        Personaje(char cuerpo1,Posicion pos1);
         Personaje(char *nombre1, char cuerpo1,int vida1);
         Personaje(char *nombre1, char cuerpo1,int vida1,Posicion pos1);
         ~Personaje();

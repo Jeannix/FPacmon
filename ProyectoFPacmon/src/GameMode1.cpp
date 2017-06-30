@@ -1,17 +1,46 @@
 #include "GameMode1.h"
-
+int numPocmanLives = 3;
 GameMode1::GameMode1()
 {
-    myMainMenu = new Menu(Size(50,20),Posicion(2,2));
-    Posicion tWindow = myMainMenu -> getPosicion();
-    //Size tSize = myMainMenu -> getSize();
-    tWindow.x += 8;
-    tWindow.y +=8;
+
+    myMainMenu = new Menu(Size(40,15),Posicion(5,5));
+
+    Posicion tWindow = myMainMenu -> getPosicion(); ///posicion de Pocman
+    tWindow.x += 20;
+    tWindow.y +=30;
+    MyHeroPocman = new Pocman("Pocman",'♀',numPocmanLives,tWindow,Direction(1,0));
+    Posicion t2;
+    Size tSize = myMainMenu -> getSize(); ///tamaño de la pantalla
     tWindow = myMainMenu -> getPosicion();
     tWindow.x++;
     tWindow.y++;
-    ///srand(time(NULL));
+    srand(time(NULL));
+    /*for(int i = 0; i<numObst;i++)
+    {
+        t2.x = tWindow.x+rand()%(tSize.width-2);
+        t2.y = tWindow.y+rand()%(tSize.height-2);
+        myObstaculos[i] = new Obstaculos(t2,'£');
 
+    }*/
+}
+void GameMode1::refrescarGameMode1()
+{
+    score=0;
+
+    for(int i=0;i<numObst;i++)
+    {
+        myObstaculos[i] -> verImpact(*MyHeroPocman);
+
+        if(myObstaculos[i]->getStatus()==1)
+            myObstaculos[i]->drawMyPersonaje();
+        else
+            score++;
+    }
+
+    MyHeroPocman->drawMyPersonaje();
+    stringstream s;
+    s<<score;
+    myMainMenu->showMessage(Posicion(0,1),string("Score: ")+s.str());
 }
 GameMode1::~GameMode1()
 {
@@ -25,34 +54,46 @@ void GameMode1::startGameMode1()
     do{
         if(kbhit()){ ///verifica si mantienes apretada una tecla
             c = getch();
-            Posicion p1(1,1);
             Direction d = MyHeroPocman->getDireccion();
             switch (c)
             {
                 case ESC:
+                {
+                    Posicion p1(1,1);
                     endGameMode1 = true;
                     system("cls");
                     myMainMenu->showMessage(p1,"Chao prro :V!");
                     system("pause");
-                    break;
+                    exit(0);
+                }
                 case SPACE:
-                    ///myMainMenu->ShowMessage(Position(1,1),string("escape key pressed"));
+                {
+                    Posicion p1(1,1);
+                    myMainMenu->showMessage(p1,string("escape key pressed"));
+                    system("pause");
                     break;
+                }
                 case UP:
-                    d.dirY-=1;
+                    d.dirY=-1;
+                    d.dirX=0;
                     break;
                 case DOWN:
-                    d.dirY+=1;
+                    d.dirY=1;
+                    d.dirX=0;
                     break;
                 case LEFT:
-                    d.dirX-=1;
+                    d.dirX=-1;
+                    d.dirY=0;
                     break;
                 case RIGHT:
-                    d.dirX+=1;
+                    d.dirX=1;
+                    d.dirY=0;
                     break;
             }
-            ///MyHeroPocman::setDirection(d);
+            MyHeroPocman->setDireccion(d);
         }
     }while(!endGameMode1);
 
 }
+
+

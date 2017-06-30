@@ -2,23 +2,30 @@
 #define GAMEMODE1_H
 #include "Menu.h"
 #include "Pocman.h"
+#include "Obstaculos.h"
 const char UP = 72;
 const char LEFT = 75;
 const char RIGHT = 77;
 const char DOWN = 80;
 const char ESC = 27;
 const char SPACE = 32;
+const int numObst = 4;
+///int numPocmanLives = 3;
 
 class GameMode1
 {
     public:
         GameMode1();
         ~GameMode1();
+        void startGameMainMenu();
         void startGameMode1();
+        void refrescarGameMode1();
+        bool colisionPocman(Pocman myCurrentPocman);
     protected:
         Menu *myMainMenu;
         Pocman *MyHeroPocman;
-        //T score;
+        Obstaculos *myObstaculos[numObst];
+        int score;
 };
 
 #endif // GAMEMODE1_H

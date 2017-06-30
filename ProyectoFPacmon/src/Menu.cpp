@@ -16,7 +16,7 @@ Menu::Menu(Size size2, Posicion pos1)
 }
 void Menu::showMessage(Posicion pos2, string message1)
 {
-    setXY(pos2.x, pos2.y);
+    GotoXY(pos2.x, pos2.y);
     cout<<message1;
 }
 void Menu::drawPrincipalMenu()
@@ -32,14 +32,9 @@ void Menu::drawPrincipalMenu()
 void Menu::drawGame1Menu()
 {
     system("cls");
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    char c = 'h';
-    Posicion pto1(4,6), pto2(64,31);
-    int widthInicial=0,heightInicial=0,widthGame = 60, heightGame = 25;
+    char c = 'H';
+    int widthInicial=0,heightInicial=0,widthGame = 35, heightGame = 18;
+    Posicion pto1(4,6), pto2(pto1.x+widthGame,pto1.y+heightGame);
     while(widthInicial<widthGame){
         drawPixel(pto1.x++,pto1.y,c);
         drawPixel(pto2.x--,pto2.y,c);
@@ -48,13 +43,8 @@ void Menu::drawGame1Menu()
     while(heightInicial<heightGame){
         drawPixel(pto1.x,pto1.y++,c);
         drawPixel(pto2.x,pto2.y--,c);
-        widthInicial++;
+        heightInicial++;
     }
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
 }
 void Menu::drawGame2Menu()
 {

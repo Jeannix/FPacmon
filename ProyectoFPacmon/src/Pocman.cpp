@@ -30,8 +30,6 @@ void Pocman::Saludar()
 void Pocman::drawMyPersonaje()
 {
     deletePixel(pos);
-    ///int dirEnemigo = rand()%4;
-    ///switch(dirEnemigo)
     Posicion newPosi (pos.x + dir.dirX, pos.y + dir.dirY);
     moveMyPersonaje(newPosi);
     Personaje::drawMyPersonaje();

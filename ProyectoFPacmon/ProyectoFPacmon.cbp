@@ -43,6 +43,7 @@
 		<Unit filename="include/GameMode1.h" />
 		<Unit filename="include/Item.h" />
 		<Unit filename="include/Menu.h" />
+		<Unit filename="include/Obstaculos.h" />
 		<Unit filename="include/Personaje.h" />
 		<Unit filename="include/Pocman.h" />
 		<Unit filename="include/Posicion.h" />
@@ -57,6 +58,7 @@
 		<Unit filename="src/GameMode1.cpp" />
 		<Unit filename="src/Item.cpp" />
 		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/Obstaculos.cpp" />
 		<Unit filename="src/Personaje.cpp" />
 		<Unit filename="src/Pocman.cpp" />
 		<Unit filename="src/Posicion.cpp" />

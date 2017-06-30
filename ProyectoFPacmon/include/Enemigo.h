@@ -1,10 +1,7 @@
 #ifndef ENEMIGO_H
 #define ENEMIGO_H
 #include "Personaje.h"
-///const char UP = 72;
-///const char LEFT = 75;
-///const char RIGHT = 77;
-///const char DOWN = 80;
+
 
 class Enemigo : public Personaje
 {

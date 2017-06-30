@@ -16,7 +16,7 @@ class Ventana
         void deletePixel(Posicion xy1);
     protected:
         COORD coord={0,0};
-        void setXY(int x, int y);
+        void GotoXY(int x, int y);
 
 
 
