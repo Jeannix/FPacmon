@@ -2,6 +2,7 @@
 #define PERSONAJE_H
 #include "Posicion.h"
 #include "Ventana.h"
+#include "Direction.h"
 
 
 class Personaje : public Ventana

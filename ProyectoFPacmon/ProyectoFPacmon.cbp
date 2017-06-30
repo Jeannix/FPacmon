@@ -39,7 +39,6 @@
 		<Unit filename="include/Comida.h" />
 		<Unit filename="include/Direction.h" />
 		<Unit filename="include/Enemigo.h" />
-		<Unit filename="include/Escenario.h" />
 		<Unit filename="include/Frutita.h" />
 		<Unit filename="include/GameMode1.h" />
 		<Unit filename="include/Item.h" />
@@ -54,7 +53,6 @@
 		<Unit filename="src/Comida.cpp" />
 		<Unit filename="src/Direction.cpp" />
 		<Unit filename="src/Enemigo.cpp" />
-		<Unit filename="src/Escenario.cpp" />
 		<Unit filename="src/Frutita.cpp" />
 		<Unit filename="src/GameMode1.cpp" />
 		<Unit filename="src/Item.cpp" />

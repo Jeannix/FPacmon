@@ -1,6 +1,10 @@
 #ifndef ENEMIGO_H
 #define ENEMIGO_H
 #include "Personaje.h"
+///const char UP = 72;
+///const char LEFT = 75;
+///const char RIGHT = 77;
+///const char DOWN = 80;
 
 class Enemigo : public Personaje
 {
@@ -8,6 +12,7 @@ class Enemigo : public Personaje
         Enemigo();
         Enemigo(char *nombre1, char cuerpo1,int vida1);
         ~Enemigo();
+        void drawMyPersonaje();
         void setPosicion();
         void Saludar();
         char getVida();
@@ -16,7 +21,7 @@ class Enemigo : public Personaje
         char *nombre;
         char cuerpo;
         int vida;
-        Posicion posicion;
+        Posicion pos;
 
 };
 

@@ -21,10 +21,7 @@ Personaje::~Personaje()
 
 }
 void Personaje::Saludar(){}
-void Personaje::drawMyPersonaje()
-{
-    drawPixel(myPos,cuerpo);
-}
+void Personaje::drawMyPersonaje(){}
 void Personaje::setForm(char newForm){cuerpo = newForm;}
 void Personaje::moveMyPersonaje(Posicion newPosicion)
 {

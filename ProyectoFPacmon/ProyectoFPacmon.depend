@@ -280,3 +280,103 @@
 1498768940 source:d:\instaladores\programacion\proyectofpacmon\src\ventana.cpp
 	"Ventana.h"
 
+1498797033 source:d:\usb\c++\fpacmon\proyectofpacmon\main.cpp
+	<iostream>
+	"Personaje.h"
+	"Enemigo.h"
+	"Pocman.h"
+	"GameMode1.h"
+
+1498793839 d:\usb\c++\fpacmon\proyectofpacmon\include\personaje.h
+	"Posicion.h"
+	"Ventana.h"
+	"Direction.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\posicion.h
+	<string>
+	<iostream>
+
+1498797457 d:\usb\c++\fpacmon\proyectofpacmon\include\ventana.h
+	"Posicion.h"
+	<windows.h>
+	<conio.h>
+	<time.h>
+	<sstream>
+
+1498792468 d:\usb\c++\fpacmon\proyectofpacmon\include\enemigo.h
+	"Personaje.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\pocman.h
+	"Personaje.h"
+	"Direction.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\direction.h
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\comida.cpp
+	"Comida.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\comida.h
+	"Posicion.h"
+	"Personaje.h"
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\direction.cpp
+	"Direction.h"
+
+1498796882 source:d:\usb\c++\fpacmon\proyectofpacmon\src\enemigo.cpp
+	"Enemigo.h"
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\escenario.cpp
+	"Escenario.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\escenario.h
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\gamemode1.cpp
+	"GameMode1.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\gamemode1.h
+	"Menu.h"
+	"Pocman.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\menu.h
+	"Ventana.h"
+	"Posicion.h"
+	"Size.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\size.h
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\item.cpp
+	"Item.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\item.h
+	"Personaje.h"
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\menu.cpp
+	"Menu.h"
+
+1498791344 source:d:\usb\c++\fpacmon\proyectofpacmon\src\personaje.cpp
+	"Personaje.h"
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\posicion.cpp
+	"Posicion.h"
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\powerup.cpp
+	"PowerUp.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\powerup.h
+	"Personaje.h"
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\size.cpp
+	"Size.h"
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\ventana.cpp
+	"Ventana.h"
+
+1498790136 source:d:\usb\c++\fpacmon\proyectofpacmon\src\frutita.cpp
+	"Frutita.h"
+
+1498790136 d:\usb\c++\fpacmon\proyectofpacmon\include\frutita.h
+	"Personaje.h"
+
+1498791344 source:d:\usb\c++\fpacmon\proyectofpacmon\src\pocman.cpp
+	"Pocman.h"
+
